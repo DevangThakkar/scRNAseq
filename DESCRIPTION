@@ -1,0 +1,30 @@
+Package: scRNAseq
+Type: Package
+Title: Dummy Single Cell RNAseq Data Set
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Devang",
+           family = "Thakkar",
+           role = c("aut", "cre"),
+           email = "devang.thakkar@duke.edu"))
+Maintainer: Devang Thakkar <devang.thakkar@duke.edu>
+Description: This package contains a dummy dataset for the Tidybiology module. The dataset contains gene information from https://github.com/matthewhirschey/genes and dummy gene counts for single cells. The dataset also contains an organ column that has three values - brain, heart, other. The brain and heart values are assigned to the top 20 marker genes for these organs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.1)
+Imports: 
+    utils,
+    dplyr, 
+    stringr
+Suggests: 
+    knitr,
+    rmarkdown,
+    tidyr,
+    readr,
+    spelling,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr
+LazyData: true
+URL: https://github.com/devangthakkar/scRNAseq
+RoxygenNote: 7.1.1
+Language: en-US
