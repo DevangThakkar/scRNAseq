@@ -1,6 +1,6 @@
 #' @title scRNAseq
 #'
-#' @description A data set containing a dummy gene by cell matrix and gene metadata.
+#' @description This package contains a dummy dataset for the Tidybiology module. The dataset contains gene information from https://github.com/matthewhirschey/genes and dummy gene counts for single cells. The dataset also contains an organ column that has three values - brain, heart, other. The brain and heart values are assigned to the top 20 marker genes for these organs.
 #'
 #' @usage data(scRNAseq)
 #'
@@ -12,8 +12,8 @@
 #'   \item{gene_description}{Gene name and description}
 #'   \item{chromosome_scaffold_name}{Genome assemblies are hierarchical. The shortest assembly components are contigs, which are sequences taken from individuals. Contigs are assembled into longer scaffolds, and scaffolds are assembled into chromosomes if there is sufficient mapping information. Many genome assemblies have only been assembled to the scaffold level.}
 #'   \item{strand}{Indicates if gene is on positive or negative strand}
-#'   \item{transcript_start_bp}{Position of gene start}
-#'   \item{transcript_end_bp}{Position of gene end}
+#'   \item{gene_start_bp}{Position of gene start}
+#'   \item{gene_end_bp}{Position of gene end}
 #'   \item{transcript_length}{Transcript length (including UTRs and CDS)}
 #'   \item{gene_percent_gc_content}{Gene % GC content}
 #'   \item{gene_stable_id}{Stable gene identifiers are ways that Ensembl labels genes in their database. Unlike gene names which can change as a result of improvements in scientific knowledge, stable identifiers should continue to refer to the same genomic features.}
@@ -33,5 +33,5 @@
 #'
 #' @keywords datasets
 #'
-#' @source \url{https://github.com/matthewhirschey/genes}
+#' @source \url{https://github.com/devangthakkar/scRNAseq}
 "scRNAseq"

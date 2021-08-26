@@ -8,12 +8,12 @@
 
 }
 \source{
-\url{https://github.com/matthewhirschey/genes}
+\url{https://github.com/devangthakkar/scRNAseq}
 }
 \usage{
 data(scRNAseq)
 }
 \description{
-A data set containing a dummy gene by cell matrix and gene metadata.
+This package contains a dummy dataset for the Tidybiology module. The dataset contains gene information from https://github.com/matthewhirschey/genes and dummy gene counts for single cells. The dataset also contains an organ column that has three values - brain, heart, other. The brain and heart values are assigned to the top 20 marker genes for these organs.
 }
 \keyword{datasets}
