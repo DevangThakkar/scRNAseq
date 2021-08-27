@@ -16,9 +16,11 @@
 #'   \item{gene_end_bp}{Position of gene end}
 #'   \item{transcript_length}{Transcript length (including UTRs and CDS)}
 #'   \item{gene_percent_gc_content}{Gene % GC content}
+#'   \item{gene_type}{Type of gene - protein_coding, lncRNA, processed_pseudogene, unprocessed_pseudogene, miRNA, snRNA}
+#'   \item{tidybiology_score}{A normally distributed score with mean=0, sd=1}
 #'   \item{gene_stable_id}{Stable gene identifiers are ways that Ensembl labels genes in their database. Unlike gene names which can change as a result of improvements in scientific knowledge, stable identifiers should continue to refer to the same genomic features.}
 #'   \item{transcript_stable_id}{Stable transcript identifiers are ways that Ensembl labels transripts in their database.}
-#'   \item{organ}{Trivariate identifier for organ of origin - brain, heart, other}
+#'   \item{organ}{Multivariate identifier for organ of origin - brain, heart, kidney, other}
 #'   \item{cell_1}{Gene counts for cell 1}
 #'   \item{cell_2}{Gene counts for cell 2}
 #'   \item{cell_3}{Gene counts for cell 3}
